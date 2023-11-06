@@ -1,0 +1,13 @@
+﻿var srpOld = new SOLIDPrinciples.SingleResponsibility.OldImplementation();
+var srpNew = new SOLIDPrinciples.SingleResponsibility.NewImplementation();
+var ocpOld = new SOLIDPrinciples.OpenClosed.OldImplementation();
+var ocpNew = new SOLIDPrinciples.OpenClosed.NewImplementation();
+var lspOld = new SOLIDPrinciples.LiskovSubstitution.OldImplementation();
+var lspNew = new SOLIDPrinciples.LiskovSubstitution.NewImplementation();
+var lspOldCar = new SOLIDPrinciples.LiskovSubstitution.OldImplementationWithCarExample();
+var lspNewCar = new SOLIDPrinciples.LiskovSubstitution.NewImplementationWithCarExample();
+var ispOld = new SOLIDPrinciples.InterfaceSegregation.OldImplementation();
+var ispNew = new SOLIDPrinciples.InterfaceSegregation.NewImplementation();
+var diOld = new SOLIDPrinciples.DependencyInjection.OldImplementation();
+var diNew = new SOLIDPrinciples.DependencyInjection.NewImplementation();
+var diWithIOC = new SOLIDPrinciples.DependencyInjection.WithIOC();

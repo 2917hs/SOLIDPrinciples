@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SingleResponsibility\" />
+    <None Remove="OpenClosed\" />
+    <None Remove="LiskovSubstitution\" />
+    <None Remove="InterfaceSegregation\" />
+    <None Remove="DependencyInjection\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SingleResponsibility\" />
+    <Folder Include="OpenClosed\" />
+    <Folder Include="LiskovSubstitution\" />
+    <Folder Include="InterfaceSegregation\" />
+    <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+  </ItemGroup>
+</Project>
